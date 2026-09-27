@@ -1,43 +1,60 @@
-Guess the Number
-A simple browser game where you have three chances to guess a number between 0 and 99.
+*** Guess the Number
 
-How to Play
-Open index.html in any browser.
+A simple **Guess the Number** browser game built using HTML, CSS, and JavaScript.
 
-Enter your guess (only digits, max 2 characters).
+** How to Play
 
-Click Check.
+* The game generates a random number between **0 and 99**.
+* You have **3 chances** to guess the number.
+* Enter your guess and click **Check**.
+* After an incorrect guess, you get a hint.
+* Guess the number correctly to win.
+* If all 3 chances are used, the correct number is revealed and the game restarts.
 
-After each wrong guess, you'll see how many chances remain and get a hint.
+** Features
 
-If you guess correctly, you win! If you use all three chances, the game reveals the number and restarts.
+* 🔢 Random number generation
+* 🎯 Three attempts to guess
+* 💡 Hints for incorrect guesses
+* ✅ Input validation
+* 🔄 Automatic restart after winning or losing
+* 🌐 Runs directly in a web browser
 
-Features
-Input validation (no letters, max 2 digits)
+** Technologies Used
 
-Three attempts
+* HTML5
+* CSS3
+* JavaScript (ES6)
 
-Dynamic hints after first wrong guess
+** Project Structure
 
-Automatic restart after win/loss
+```text
+Guess-the-number/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
-Technologies
-HTML5
+** How to Run
 
-CSS3
+1. Clone the repository:
 
-JavaScript (ES6)
+```bash
+git clone https://github.com/visweswararaopappala/Guess-the-number.git
+```
 
-Setup
-Clone the repo and open index.html:
+2. Open the project folder.
+3. Open `index.html` in any web browser.
+4. Start playing! 🎮
 
-bash
-git clone https://github.com/your-username/guess-the-number.git
-cd guess-the-number
-# open index.html in your browser
-Known Issue
-Due to a typo (gameAcive instead of gameActive), hints are currently disabled. Fix coming soon.
+** Purpose
 
-License
-MIT
+This project was created to practice **JavaScript fundamentals**, including random numbers, user input, conditions, functions, and DOM manipulation.
 
+** Author
+
+**Visweswara Rao Pappala**
+
+GitHub: https://github.com/visweswararaopappala
